@@ -3,9 +3,12 @@ from pathlib import Path
 import pandas as pd
 
 
-PROJECT_ROOT = Path(__file__).resolve().parents[1]
-INPUT_ROOT = PROJECT_ROOT / "data" / "rawdata"
-OUTPUT_ROOT = PROJECT_ROOT / "data" / "rawdata_rearranged"
+# Server
+# INPUT_ROOT = Path("/app/data/rawdata")
+# OUTPUT_ROOT = Path("/app/data/rawdata_rearranged")
+# Local
+INPUT_ROOT = Path("/data/rawdata")
+OUTPUT_ROOT = Path("/data/rawdata_rearranged")
 # 每個輸出檔案的最大列數
 CHUNK_SIZE = 3000
 
