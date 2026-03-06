@@ -4,11 +4,11 @@ import pandas as pd
 
 
 # Server
-# INPUT_ROOT = Path("/app/data/rawdata")
-# OUTPUT_ROOT = Path("/app/data/rawdata_rearranged")
+INPUT_ROOT = Path("/app/data/rawdata")
+OUTPUT_ROOT = Path("/app/data/rawdata_rearranged")
 # Local
-INPUT_ROOT = Path("/data/rawdata")
-OUTPUT_ROOT = Path("/data/rawdata_rearranged")
+# INPUT_ROOT = Path("/data/rawdata")
+# OUTPUT_ROOT = Path("/data/rawdata_rearranged")
 # 每個輸出檔案的最大列數
 CHUNK_SIZE = 3000
 
