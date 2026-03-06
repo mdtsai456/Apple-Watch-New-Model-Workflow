@@ -1,0 +1,8 @@
+# Data (confidential)
+data/
+
+# Python venv
+.venv/
+
+# macOS
+.DS_Store
